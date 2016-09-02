@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Çoklu Dil</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="hello_world">Merhaba Dünya!</string>
+    <string name="pencil">Kalem</string>
+</resources>

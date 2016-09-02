@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Özel bir tema oluşturduk. -->
+    <style name="OzelTema" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- ActionBar stilini OzelActionBar stilinden kullan dedik. -->
+        <item name="actionBarStyle"> @style/OzelActionBar</item>
+    </style>
+
+    <!-- Özel bir Action Bar stili oluşturduk -->
+    <style name="OzelActionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Action Bar arkaplanının rengini değiştirdik. -->
+        <item name="background" >@color/green </item>
+        <!-- Action Bar başlık yazısının stilini değiştirdik. -->
+        <item name="titleTextStyle">@style/OzelBaslik</item>
+    </style>
+
+    <!-- Özel bir başlık yazısı stili oluşturduk. -->
+    <style name="OzelBaslik" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <!-- Yazımızın rengini değiştirdik -->
+        <item name="android:textColor">@color/customcolor</item>
+    </style>
+
+</resources>

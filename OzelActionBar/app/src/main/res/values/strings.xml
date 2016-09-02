@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OzelActionBar</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Renk değerlerimiz -->
+    <color name="green">#7FCF4B</color>
+    <color name="red">#E8BBB4</color>
+    <color name="customcolor">#ECF2C9</color>
+</resources>

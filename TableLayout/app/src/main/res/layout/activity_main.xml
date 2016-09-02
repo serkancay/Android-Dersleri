@@ -1,0 +1,44 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TableRow>
+    <TextView
+        android:layout_weight="1"
+        android:background="#FF2C33"
+        android:layout_height="wrap_content"
+        android:text="SATIR1 SÜTUN1"/>
+    <TextView
+        android:background="#0852FF"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="SATIR1 SÜTUN2"/>
+
+</TableRow>
+
+    <TableRow>
+        <TextView
+            android:background="#FF00CD"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="SATIR2 SÜTUN1"/>
+        <TextView
+            android:background="#27FF15"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="SATIR2 SÜTUN2"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_column="0"></TableRow>
+    </TableRow>
+
+</TableLayout>
